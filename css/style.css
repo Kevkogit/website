@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, p {
 	background-clip: content-box, border-box;
 	background-size: cover;
 	box-sizing: border-box;
-	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .headshot-3 {
