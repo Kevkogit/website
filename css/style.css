@@ -103,3 +103,20 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: .3em;
     margin-bottom: .8em;
 }
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 70% 1;
+    margin-right: 5em;
+    max-width: 500px;
+    margin-top: 1em;
+}
+
+.about-picture {
+    flex: 30% 1;
+}
