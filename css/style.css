@@ -20,7 +20,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #9c4946;
+  color: #f5554f;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar-module ul li a, .navbar-module ul li a svg {
   font-weight: 700;
   font-size: 125%;
-  color: #9c4946;
+  color: #f5554f;
 }
 
 .navbar-module ul:first-child a, .navbar-module ul:first-child a svg {
