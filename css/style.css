@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
+
+    /*       */
+    /* Basic */
+    /*       */
+
 body {
   font-family: 'Inconsolata', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #9c4946;
 }
 
 .container {
@@ -10,4 +20,44 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+
+    /*        */
+    /* Navbar */
+    /*        */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5em;
+}
+
+.navbar-module {
+    margin: 0;
+}
+
+.navbar-module ul li a, .navbar-module ul li a svg {
+    font-weight: 700;
+    font-size: 125%;
+    color: #9c4946;
+}
+
+.navbar-module ul:first-child a, .navbar-module ul:first-child a svg {
+    padding-left: 0;
+}
+
+.navbar-item {
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    padding: .3em .8em;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.navbar-socials {
+  margin: 0;
 }
