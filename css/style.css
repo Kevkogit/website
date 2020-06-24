@@ -9,6 +9,10 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+ol, ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: #9c4946;
@@ -45,6 +49,10 @@ a {
 
 .navbar-module ul:first-child a, .navbar-module ul:first-child a svg {
     padding-left: 0;
+}
+
+.navbar-module ul li, .navbar-module ul li a svg {
+    display: inline;
 }
 
 .navbar-item {
