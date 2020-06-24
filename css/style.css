@@ -8,6 +8,8 @@
 body {
   font-family: 'Inconsolata', monospace;
   background-color: #232323;
+  padding: 0;
+  margin: 0;
 }
 
 ol, ul {
