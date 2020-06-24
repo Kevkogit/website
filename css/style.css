@@ -23,6 +23,10 @@ a {
   color: #9c4946;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  color: #e6e6e6;
+}
+
 .container {
   position: relative;
   width: 100%;
