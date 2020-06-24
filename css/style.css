@@ -154,3 +154,40 @@ h1, h2, h3, h4, h5, h6, p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.contact {
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #9e6240;
+    border-radius: 6px;
+    text-align: center;
+    padding: 2em;
+}
+
+.contact h2 {
+    font-size: 2.2em;
+}
+
+.content p {
+    margin-bottom: 1em;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 26px;
+}
+
+.button-contact {
+    color: #fff9f9;
+    background-color: #9e6240;
+}
+
+.button-module {
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+    padding: .3em .8em;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
