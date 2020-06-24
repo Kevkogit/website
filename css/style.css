@@ -132,8 +132,6 @@ h1, h2, h3, h4, h5, h6, p {
 .headshot {
 	flex-shrink: 0;
 	margin: 20px;
-	height: calc(150px + 6vw);
-	width: calc(150px + 6vw);
 	border: calc(8px + 0.2vw) solid transparent;
 	background-origin: border-box;
 	background-clip: content-box, border-box;
@@ -144,6 +142,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .headshot-3 {
 	border-radius: 50% 10%;
-	background-image: var(--img-url),
-		linear-gradient(to bottom left, #f83600, #f9d423);
+  background-image: url(''),
+		linear-gradient(to bottom left, #f5554f, #f5554f9e);
 }
