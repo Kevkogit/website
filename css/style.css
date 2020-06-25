@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 6px;
     text-align: center;
     padding: 2em;
+    margin-bottom: 35px;
 }
 
 .contact h2 {
