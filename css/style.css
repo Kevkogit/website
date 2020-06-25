@@ -201,9 +201,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .mt-20 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .contribute-text {
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
