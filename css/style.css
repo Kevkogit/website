@@ -123,6 +123,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 6em 0;
 }
 
+main {
+    z-index: 9;	
+}
+
 .intro-header {
     font-size: 3.5em;
     font-weight: 700;
