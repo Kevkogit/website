@@ -12,6 +12,19 @@ body {
   margin: 0;
 }
 
+.background-eff {
+  width: 100%;
+  height: 110vh;
+  border-radius: 1vw;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(245 85 79) 0%, rgb(26 26 26) 100%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.1;
+  animation: 0.3s ease 0s 1 normal none running nyDPA;
+  transform: translateY(-80vh)
+}
+
 ol, ul {
   list-style: none;
 }
