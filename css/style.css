@@ -22,7 +22,8 @@ body {
   left: 0px;
   opacity: 0.1;
   animation: 0.3s ease 0s 1 normal none running nyDPA;
-  transform: translateY(-80vh)
+  transform: translateY(-80vh);
+  z-index: -1;
 }
 
 .background-eff2 {
@@ -36,19 +37,25 @@ body {
   opacity: 0.1;
   animation: 0.3s ease 0s 1 normal none running nyDPA;
   transform: translateY(20vh);
+  z-index: -1;
 }
 
 ol, ul {
   list-style: none;
 }
 
-li {
+.headerli {
   display: inline;
 }
 
 a {
   text-decoration: none;
   color: #f5554f;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f53a33;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -67,6 +74,10 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center !important;
 }
 
+.text-muted {
+  color: #b0b0b0!important;
+}
+
 
     /*        */
     /* Navbar */
@@ -83,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-.navbar-module ul li a, .navbar-module ul li a svg {
+.navbar-module ul .headerli a, .navbar-module ul .headerli a svg {
   font-weight: 700;
   font-size: 125%;
   color: #f5554f;
@@ -93,7 +104,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 0;
 }
 
-.navbar-module ul li, .navbar-module ul li a svg {
+.navbar-module ul .headerli, .navbar-module ul .headerli a svg {
   display: inline;
 }
 
@@ -124,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 main {
-    z-index: 9;	
+    z-index: 10;	
 }
 
 .intro-header {
@@ -154,14 +165,6 @@ main {
     max-width: 500px;
     margin-top: 1em;
     font-size: 18px;
-}
-
-.about-picture {
-    /* flex: 30% 1; */
-}
-
-.second-main {
-  background-color: #1a1a1a;
 }
 
 .headshot {
@@ -202,7 +205,7 @@ main {
 
 .contact h2 {
     font-size: 2.2em;
-    line-height: 10px;
+    line-height: 36px;
 }
 
 .content p {
@@ -216,6 +219,11 @@ main {
 .button-contact {
     color: #fff9f9;
     background-color: #f5554f;
+    z-index: 5000;
+}
+
+.button-contact:hover {
+  cursor: pointer;
 }
 
 .button-module {
@@ -239,8 +247,4 @@ main {
 
 .mt-20 {
   margin-top: 30px;
-}
-
-.contribute-text {
-
 }
