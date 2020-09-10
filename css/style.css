@@ -161,9 +161,7 @@ main {
 
 .about-text {
     flex: 70% 1;
-    margin-right: 5em;
-    max-width: 500px;
-    margin-top: 1em;
+    margin-top: 30px;
     font-size: 18px;
 }
 
@@ -201,6 +199,7 @@ main {
     text-align: center;
     padding: 2em;
     margin-bottom: 35px;
+    margin-top: 100px;
 }
 
 .contact h2 {
