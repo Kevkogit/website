@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
 
-    <!-- Import -->
-    <script src="https://kit.fontawesome.com/d02c8a8a14.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Import -->
+  <script src="https://kit.fontawesome.com/d02c8a8a14.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <meta charset="utf-8">
-    <title>Home - Kevin Koopman - Website</title>
-  </head>
-  <body>
-    <div class="container">
-      <nav class="navbar">
-        <ul class="navbar-module">
-          <li><a href="/" class="navbar-item">Home</a></li>
-          <li><a href="/portfolio" class="navbar-item">Portfolio</a></li>
-          <li><a href="/contact" class="navbar-item">Contact</a></li>
-        </ul>
-        <ul class="navbar-module navbar-socials">
-          <li><a href="mailto:kevko1606@gmail.com" class="navbar-item"><i class="far fa-envelope"></i></a></li>
-          <li><a href="https://github.com/Kevkogit" class="navbar-item"><i class="fab fa-github"></i></a></li>
-          <li><a href="#" class="navbar-item"><i class="fab fa-discord"></i></a></li>
-        </ul>
-      </nav>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Home - Kevin Koopman - Website</title>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar">
+    <ul class="navbar-module">
+      <li class="headerli"><a href="/" class="navbar-item">Home</a></li>
+      <li class="headerli"><a href="/portfolio" class="navbar-item">Portfolio</a></li>
+      <li class="headerli"><a href="/contact" class="navbar-item">Contact</a></li>
+    </ul>
+    <ul class="navbar-module navbar-socials">
+      <li class="headerli"><a href="mailto:kevko1606@gmail.com" class="navbar-item"><i class="far fa-envelope"></i></a></li>
+      <li class="headerli"><a href="https://github.com/Kevkogit" class="navbar-item"><i class="fab fa-github"></i></a></li>
+      <li class="headerli"><a href="#" class="navbar-item"><i class="fab fa-discord"></i></a></li>
+    </ul>
+  </nav>
 
-      <div class="background-eff"></div>
-      <div class="background-eff2"></div>
-
-      <main>
-        <form action="https://formspree.io/mpzyjpll" method="POST">
-          <input type="text" name="name">
-          <input type="email" name="_replyto">
-          <input type="submit" value="Send">
-        </form>
-      </main>
+  <main>
+    <div class="intro">
+      <h1 class="intro-header">I'm Kevin Koopman</h1>
+      <h2 class="intro-description">Contact Me</h2>
     </div>
 
-    <img class="mt-100" src="images/transition-colors.svg" alt="Transition in colors">
+    <div class="mt-4">
+      <form action="https://formspree.io/mpzyjpll" method="POST">
+        <div class="form-group">
+          <label class="text-white">Email address</label>
+          <input type="email" name="_replyto" class="form-control" placeholder="Enter email">
+        </div>
 
-    <div class="container second-main">
-      <main>
-        <p class="copyright-text">© COPYRIGHT MRKEVKO 2020</p>
-      </main>
+        <div class="form-group mt-4">
+          <label class="text-white">Message</label>
+          <textarea type="text" name="name" class="form-control" placeholder="Please share your message here..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
     </div>
-  </body>
+
+    <div class="contact">
+      <h2>Feel free to contact me</h2>
+      <p>I'm open to new opportunities and chatting.</p>
+      <a class="button-module button-contact mt-3" href="/contact">Get in touch</a>
+    </div>
+
+    <div class="text-center">
+      <a class="mt-20 contribute-text" href="https://github.com/kevkogit/website/edit/master/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Help me to improve my website</a>
+    </div>
+  </main>
+
+  <div class="background-eff"></div>
+
+  <footer class="pt-4 my-md-5 pt-md-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="images/k-logo.png" alt="" width="32" height="32">
+        <small class="d-block mb-3 text-muted">© Copyright 2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Links</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="/">Home</a></li>
+          <li><a class="text-muted" href="#">Portfolio</a></li>
+          <li><a class="text-muted" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Services</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted">Web Development</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Have a question?</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted"><i class="fab fa-discord"></i> Kevko#4832</a></li>
+          <li><a class="text-muted"><i class="far fa-envelope"></i> kevko1606@gmail.com</a></li>
+          <li><a class="text-muted"><i class="fab fa-github"></i> Kevkogit</a></li>
+          <li><a class="text-muted"><i class="fas fa-phone"></i> +31 6 36065697</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
 </html>
