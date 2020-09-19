@@ -253,6 +253,10 @@ main {
     margin-bottom: 150px;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -263,4 +267,22 @@ main {
 
 .portfolio-divider {
     margin-top: 100px;
+}
+
+.contact-social-bg i {
+    font-size: 36px;
+    color: #f5554f;
+    display: inline;
+    vertical-align: sub;
+}
+
+.contact-social-bg p {
+    font-size: 16px;
+    display: inline;
+    margin-left: 15px;
+}
+
+.contact-social-bg {
+    display: inline;
+    text-align: center;
 }
