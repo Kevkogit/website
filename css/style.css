@@ -20,7 +20,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0.1;
+    opacity: 0.25;
     animation: 0.3s ease 0s 1 normal none running nyDPA;
     transform: translateY(-80vh);
     z-index: -1;
@@ -34,7 +34,7 @@ body {
     position: absolute;
     top: 0px;
     left: 25vh;
-    opacity: 0.1;
+    opacity: 0.2;
     animation: 0.3s ease 0s 1 normal none running nyDPA;
     transform: translateY(20vh);
     z-index: -1;
