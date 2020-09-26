@@ -286,3 +286,15 @@ main {
     display: inline;
     text-align: center;
 }
+
+
+/*               */
+/*  Mobile Only  */
+/*               */
+
+@media only screen and (max-width: 768px) {
+    .contact-social-bg {
+        text-align: start;
+        margin-left: 150px;
+    }
+}
