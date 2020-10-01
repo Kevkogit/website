@@ -298,6 +298,16 @@ main {
     box-shadow: 0 10px 30px -15px #212121;
 }
 
+.project-info-card-left {
+    background-color: #212121;
+    position: relative;
+    z-index: 500;
+    width: 135%;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 0 10px 30px -15px #212121;
+}
+
 .work-text {
     text-align: right;
 }
@@ -317,6 +327,9 @@ main {
     padding: 0px 4px;
 }
 
+.text-left h3 {
+    color: #f5554f !important;
+}
 
 /*               */
 /*  Mobile Only  */
@@ -340,5 +353,21 @@ main {
     .project-info-card {
         width: 100%;
         margin-left: 0px;
+    }
+
+    .project-info-card-left {
+        width: 100%;
+    }
+
+    .left-margin--mobile {
+        margin-left: 20px;
+    }
+
+    .mt--mobile {
+        margin-top: 20px;
+    }
+
+    .if--mobile-left {
+        text-align: left !important;
     }
 }
