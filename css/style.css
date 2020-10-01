@@ -288,6 +288,35 @@ main {
     text-align: center;
 }
 
+.project-info-card {
+    background-color: #212121;
+    position: relative;
+    width: 135%;
+    margin-left: -100px;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 0 10px 30px -15px #212121;
+}
+
+.work-text {
+    text-align: right;
+}
+
+.work-text h3 {
+    color: #f5554f !important;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tags code {
+    color: #a3a3a3;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 0px 4px;
+}
+
 
 /*               */
 /*  Mobile Only  */
@@ -301,5 +330,15 @@ main {
 
     footer {
         margin-top: 100px;
+    }
+
+    .work-text {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .project-info-card {
+        width: 100%;
+        margin-left: 0px;
     }
 }
