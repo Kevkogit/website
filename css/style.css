@@ -270,6 +270,11 @@ main {
     margin-top: 150px;
 }
 
+.portfolio-divider-badge {
+    margin-top: 80px;
+}
+
+
 .contact-social-bg i {
     font-size: 36px;
     color: #f5554f;
@@ -329,6 +334,17 @@ main {
 
 .text-left h3 {
     color: #f5554f !important;
+}
+
+.github a { 
+    color: #fff;
+    border-bottom: solid #f5554f 2px;
+    padding-bottom: 4px;
+}
+
+.github span {
+    border-bottom: solid #f5554f 2px;
+    padding-bottom: 4px;
 }
 
 /*               */
