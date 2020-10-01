@@ -236,6 +236,7 @@ main {
 
 .button-contact:hover {
     cursor: pointer;
+    color: #fff;
 }
 
 .button-module {
