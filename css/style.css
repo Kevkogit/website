@@ -298,4 +298,8 @@ main {
         text-align: start;
         margin-left: 150px;
     }
+
+    footer {
+        margin-top: 200px;
+    }
 }
