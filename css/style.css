@@ -347,6 +347,30 @@ main {
     padding-bottom: 4px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 26px;
+  color: #000;
+  font-weight: 800;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 26px;
+  color: #000;
+  font-weight: 800;
+}
+
+.carousel-indicators li {
+  background-color: #000;
+}
+
 /*               */
 /*  Mobile Only  */
 /*               */
