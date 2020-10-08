@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://mrkevko.nl/</loc>
+    <lastmod>2020-10-08T10:11:59+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://mrkevko.nl/portfolio</loc>
+    <lastmod>2020-10-08T10:11:59+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mrkevko.nl/contact</loc>
+    <lastmod>2020-10-08T10:11:59+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://mrkevko.nl/project/pixelnode</loc>
+    <lastmod>2020-10-08T10:11:59+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>http://mrkevko.nl/project/kraken</loc>
+    <lastmod>2020-10-08T10:11:59+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+</urlset>
