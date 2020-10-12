@@ -371,6 +371,21 @@ main {
   background-color: #000;
 }
 
+.portfolio--button {
+    background-color: #212121;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px -15px #212121;
+}
+
+.no--demo {
+    color: #878787;
+}
+
+.no--demo:hover {
+    color: #969696;
+}
+
 /*               */
 /*  Mobile Only  */
 /*               */
