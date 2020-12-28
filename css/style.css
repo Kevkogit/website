@@ -179,6 +179,7 @@ main {
 }
 
 .headshot {
+    width: 80%;
     flex-shrink: 0;
     margin: 20px;
     border: calc(8px + 0.2vw) solid transparent;
